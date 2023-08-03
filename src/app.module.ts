@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import httpConfig from './config/http.config';
+import { httpConfig } from './config';
 
 @Module({
   imports: [

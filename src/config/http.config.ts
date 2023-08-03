@@ -1,5 +1,5 @@
 export default () => ({
   http: {
-    port: process.env.WEB_PORT,
+    port: process.env.HTTP_PORT,
   },
 });
